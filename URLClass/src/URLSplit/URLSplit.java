@@ -1,5 +1,5 @@
 // 1. Write a program that splits the parts of a URL
-// [ex: https://www.google.com/search?q=image&tbm=isch&ved=2ahUKEwj827nasvb3AhV-]
+// [ex: https://www.google.com/search?q=image&tbm=isch&ved=2ahUKEwj827nasvb3AhV-] (2022_14_Prakash)
 package URLSplit;
 import java.net.MalformedURLException;
 import java.net.URL;
