@@ -13,7 +13,7 @@ public class CheckProtocols {
         for (String protocol : protocols) {
             try {
                 // Try to create a URL object using the protocol
-                URL url = new URL(protocol + "://example.com");
+                URL url = new URL(protocol + ":/pathakprakash.com.np");
                 System.out.println(protocol.toUpperCase() + " : Supported ✅");
             } catch (MalformedURLException e) {
                 System.out.println(protocol.toUpperCase() + " : Not Supported ❌");
