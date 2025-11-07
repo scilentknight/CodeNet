@@ -1,6 +1,7 @@
 // 2. Write a program that checks the protocols a virtual machine support.
 // [ex: http, https, ftp, telnet, mailto, gopher] (2022_14_Prakash)
 package CheckProtocols;
+import java.net.MalformedURLException;
 import java.net.URL;
 
 public class CheckProtocols {
@@ -14,7 +15,7 @@ public class CheckProtocols {
                 // Try to create a URL object using the protocol
                 URL url = new URL(protocol + "://example.com");
                 System.out.println(protocol.toUpperCase() + " : Supported ✅");
-            } catch (Exception e) {
+            } catch (MalformedURLException e) {
                 System.out.println(protocol.toUpperCase() + " : Not Supported ❌");
             }
         }
