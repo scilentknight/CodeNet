@@ -1,5 +1,6 @@
 // 6. Write a program to demonstrate the x-www-form-urlencoded strings. (2022_14_Prakash)
 package FormURLEncode;
+import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.io.UnsupportedEncodingException;
 
@@ -17,13 +18,16 @@ public class FormURLEncode {
             String encodedCity = URLEncoder.encode("city", "UTF-8") + "=" + URLEncoder.encode(city, "UTF-8");
 
             // Combine all parameters with &
-            String formData = encodedName + "&" + encodedAge + "&" + encodedCity;
+            String encodedFormData = encodedName + " & " + encodedAge + " & " + encodedCity;
 
-            System.out.println("x-www-form-urlencoded string:");
-            System.out.println(formData);
+            System.out.println("Encoded Form Data");
+            System.out.println(encodedFormData);
+
+            System.out.println("Decoded Form Data:");
+            System.out.println(URLDecoder.decode(encodedFormData, "UTF-8"));
 
         } catch (UnsupportedEncodingException e) {
-            System.err.println("❌ Encoding not supported: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 }
