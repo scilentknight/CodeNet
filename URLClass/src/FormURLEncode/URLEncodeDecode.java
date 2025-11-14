@@ -4,7 +4,7 @@ import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.io.UnsupportedEncodingException;
 
-public class FormURLEncode {
+public class URLEncodeDecode {
     public static void main(String[] args) {
         try {
             // Sample form data
