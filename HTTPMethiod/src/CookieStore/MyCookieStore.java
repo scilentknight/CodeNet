@@ -1,4 +1,4 @@
-// Write a program to implement the CookieStore Methods
+package CookieStore;// Write a program to implement the CookieStore Methods
 // (add, get, getcookies, getURIs, remove, removeAll) cookies. (2022_14_Prakash)
 import java.net.CookieStore;
 import java.net.HttpCookie;
