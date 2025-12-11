@@ -1,4 +1,4 @@
-// WAP to guess the MIME content type of a webpage, a PDF and a PNG files. (2022_14_Prakash)
+// 4. WAP to guess the MIME content type of a webpage, a PDF and a PNG files. (2022_14_Prakash)
 
 import java.io.IOException;
 import java.net.MalformedURLException;

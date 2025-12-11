@@ -1,4 +1,4 @@
-// WAP to find out the content type, content length and last modified and access date of a URL. (2022_14_Prakash)
+// 1. WAP to find out the content type, content length and last modified and access date of a URL. (2022_14_Prakash)
 import java.net.*;
 import java.io.*;
 

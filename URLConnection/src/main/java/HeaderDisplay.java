@@ -1,4 +1,4 @@
-// WAP to display all the header fields and values from a webpage [kathford.edu.np] response. (2022_14_Prakash)
+// 2. WAP to display all the header fields and values from a webpage [kathford.edu.np] response. (2022_14_Prakash)
 
 import java.net.*;
 import java.io.*;

@@ -1,4 +1,4 @@
-// WAP to read the security permissions of server addresses [https://kathford.edu.np/contact-us/ and https://kathford.edu.np]. (2022_14_Prakash)
+// 3. WAP to read the security permissions of server addresses [https://kathford.edu.np/contact-us/ and https://kathford.edu.np]. (2022_14_Prakash)
 
 import java.net.*;
 import java.io.*;
