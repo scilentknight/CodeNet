@@ -1,5 +1,5 @@
+// 2. Implement an echo client - server application where the client sends some text and server relays back the same content.
 package ClientServerSocket;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
