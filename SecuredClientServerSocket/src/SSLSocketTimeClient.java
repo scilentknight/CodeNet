@@ -1,4 +1,4 @@
-// 2. Implement a secured client server time server application.(2022_14_Prakash)
+// 1. Implement a secured client server time server application.(2022_14_Prakash)
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
