@@ -1,8 +1,7 @@
+// 2. WAP to implement UDP chat server client using DatagramSocket.(2022_14_Prakash)
 package UDPEchoClientServer;
 
 import java.net.*;
-import java.nio.charset.StandardCharsets;
-
 public class UDPEchoServer {
     public static void main(String[] args) throws Exception {
         DatagramSocket socket = new DatagramSocket(2013);
